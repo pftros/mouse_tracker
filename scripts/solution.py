@@ -54,7 +54,6 @@ class TurtleController:
 def main():
   rospy.init_node('turtle_controller', anonymous=True)
   turtle_controller = TurtleController()
-  turtle_controller.control()
 
 if __name__ == '__main__':
     main()
